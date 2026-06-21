@@ -237,24 +237,9 @@ class _StudentDetailsScreenState extends State<StudentDetailsScreen> with Single
                           border: Border.all(color: EduTheme.colorPrimaryBrandTeal.withValues(alpha: 0.15), width: 2),
                         ),
                       ),
-                      // Main child avatar circle
-                      Container(
-                        width: 86,
-                        height: 86,
-                        decoration: BoxDecoration(
-                          shape: BoxShape.circle,
-                          boxShadow: [EduTheme.shadowLevel1],
-                        ),
-                        child: ClipOval(
-                          child: Image.network(
-                            'https://api.dicebear.com/7.x/adventurer/png?seed=${widget.student.name}',
-                            fit: BoxFit.cover,
-                            errorBuilder: (c, e, s) => const CircleAvatar(
-                              backgroundColor: Color(0xFFEFF6FF),
-                              child: Icon(Icons.person, size: 40, color: EduTheme.colorPrimaryBrandTeal),
-                            ),
-                          ),
-                        ),
+                      EduAvatar(
+                        name: widget.student.name,
+                        size: 86,
                       ),
                       // Floating Camera Indicator Badge overlay
                       Positioned(

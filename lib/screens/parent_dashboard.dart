@@ -207,8 +207,6 @@ class _ParentDashboardState extends State<ParentDashboard> {
                       child: Row(
                         children: [
                           Container(
-                            width: 60,
-                            height: 60,
                             decoration: BoxDecoration(
                               shape: BoxShape.circle,
                               border: Border.all(
@@ -216,12 +214,9 @@ class _ParentDashboardState extends State<ParentDashboard> {
                                 width: 2,
                               ),
                             ),
-                            child: ClipOval(
-                              child: Image.network(
-                                'https://api.dicebear.com/7.x/adventurer/png?seed=${child.name}',
-                                fit: BoxFit.cover,
-                                errorBuilder: (c, e, s) => const Icon(Icons.person, color: EduTheme.colorPrimaryBrandTeal),
-                              ),
+                            child: EduAvatar(
+                              name: child.name,
+                              size: 56,
                             ),
                           ),
                           const SizedBox(width: EduTheme.space16),
@@ -423,17 +418,13 @@ class _ParentDashboardState extends State<ParentDashboard> {
                     Row(
                       children: [
                         Container(
-                          width: 44,
-                          height: 44,
                           decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             border: Border.all(color: const Color(0xFF0F9F90).withValues(alpha: 0.15), width: 1.5),
                           ),
-                          child: ClipOval(
-                            child: Image.network(
-                              'https://api.dicebear.com/7.x/adventurer/png?seed=${widget.parent.name}',
-                              fit: BoxFit.cover,
-                            ),
+                          child: EduAvatar(
+                            name: widget.parent.name,
+                            size: 44,
                           ),
                         ),
                         const SizedBox(width: EduTheme.space12),

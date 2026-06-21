@@ -203,22 +203,9 @@ class EduStudentHeroCard extends StatelessWidget {
                   border: Border.all(color: const Color(0xFF0F9F90).withValues(alpha: 0.15), width: 1.5),
                 ),
               ),
-              Container(
-                width: 44,
-                height: 44,
-                decoration: const BoxDecoration(
-                  shape: BoxShape.circle,
-                ),
-                child: ClipOval(
-                  child: Image.network(
-                    'https://api.dicebear.com/7.x/adventurer/png?seed=$studentName',
-                    fit: BoxFit.cover,
-                    errorBuilder: (c, e, s) => const CircleAvatar(
-                      backgroundColor: Color(0xFFEFF6FF),
-                      child: Icon(Icons.person, color: Color(0xFF0F9F90)),
-                    ),
-                  ),
-                ),
+              EduAvatar(
+                name: studentName,
+                size: 44,
               ),
             ],
           ),
@@ -819,5 +806,64 @@ class EduEmptyState extends StatelessWidget {
         ),
       ),
     );
+  }
+}
+
+class EduAvatar extends StatelessWidget {
+  final String name;
+  final double size;
+  final Color? backgroundColor;
+  final TextStyle? textStyle;
+
+  const EduAvatar({
+    super.key,
+    required this.name,
+    this.size = 40,
+    this.backgroundColor,
+    this.textStyle,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    // Generate a consistent premium gradient based on the seed name
+    final int hash = name.hashCode;
+    final List<Color> gradients = _getGradients(hash);
+
+    final initials = name.trim().split(' ').map((e) => e.isNotEmpty ? e[0].toUpperCase() : '').take(2).join();
+
+    return Container(
+      width: size,
+      height: size,
+      decoration: BoxDecoration(
+        shape: BoxShape.circle,
+        gradient: LinearGradient(
+          colors: gradients,
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+        ),
+      ),
+      alignment: Alignment.center,
+      child: Text(
+        initials,
+        style: textStyle ?? TextStyle(
+          color: Colors.white,
+          fontWeight: FontWeight.bold,
+          fontSize: size * 0.42,
+          letterSpacing: -0.5,
+        ),
+      ),
+    );
+  }
+
+  List<Color> _getGradients(int hash) {
+    final palettes = [
+      [const Color(0xFF0F9F90), const Color(0xFF0D9488)], // Teal
+      [const Color(0xFF0EA5E9), const Color(0xFF0284C7)], // Sky Blue
+      [const Color(0xFF6366F1), const Color(0xFF4F46E5)], // Indigo
+      [const Color(0xFF8B5CF6), const Color(0xFF7C3AED)], // Purple
+      [const Color(0xFFF97316), const Color(0xFFEA580C)], // Orange
+      [const Color(0xFF10B981), const Color(0xFF059669)], // Emerald Green
+    ];
+    return palettes[hash.abs() % palettes.length];
   }
 }

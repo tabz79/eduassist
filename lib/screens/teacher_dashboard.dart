@@ -360,21 +360,13 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
                   Row(
                     children: [
                       Container(
-                        width: 44,
-                        height: 44,
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           border: Border.all(color: const Color(0xFF0F9F90).withValues(alpha: 0.15), width: 1.5),
                         ),
-                        child: ClipOval(
-                          child: Image.network(
-                            'https://api.dicebear.com/7.x/adventurer/png?seed=${widget.teacher.name}',
-                            fit: BoxFit.cover,
-                            errorBuilder: (c, e, s) => const CircleAvatar(
-                              backgroundColor: Color(0xFFEFF6FF),
-                              child: Icon(Icons.person, color: Color(0xFF0F9F90)),
-                            ),
-                          ),
+                        child: EduAvatar(
+                          name: widget.teacher.name,
+                          size: 44,
                         ),
                       ),
                       const SizedBox(width: EduTheme.space12),
@@ -620,7 +612,7 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
                 crossAxisCount: 4,
                 crossAxisSpacing: 12,
                 mainAxisSpacing: 12,
-                childAspectRatio: 0.82,
+                childAspectRatio: 0.72,
                 children: [
                   _buildQuickActionCard(
                     icon: Icons.how_to_reg,
@@ -1000,7 +992,7 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
     return EduCard(
       color: Colors.white,
       border: Border.all(color: const Color(0xFFF1F5F9)),
-      padding: const EdgeInsets.symmetric(vertical: 12, horizontal: 8),
+      padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 4),
       onTap: onTap,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.center,
@@ -1332,21 +1324,13 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
                         child: Row(
                           children: [
                             Container(
-                              width: 48,
-                              height: 48,
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(color: const Color(0xFFF1F5F9), width: 2),
                               ),
-                              child: ClipOval(
-                                child: Image.network(
-                                  'https://api.dicebear.com/7.x/adventurer/png?seed=${student.name}',
-                                  fit: BoxFit.cover,
-                                  errorBuilder: (c, e, s) => const CircleAvatar(
-                                    backgroundColor: Color(0xFFEFF6FF),
-                                    child: Icon(Icons.person, color: Color(0xFF14B8A6)),
-                                  ),
-                                ),
+                              child: EduAvatar(
+                                name: student.name,
+                                size: 48,
                               ),
                             ),
                             const SizedBox(width: 14),
@@ -2177,17 +2161,13 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
               child: Column(
                 children: [
                   Container(
-                    width: 90,
-                    height: 90,
                     decoration: BoxDecoration(
                       shape: BoxShape.circle,
                       border: Border.all(color: const Color(0xFFEFF6FF), width: 3),
                     ),
-                    child: ClipOval(
-                      child: Image.network(
-                        'https://api.dicebear.com/7.x/adventurer/png?seed=${widget.teacher.name}',
-                        fit: BoxFit.cover,
-                      ),
+                    child: EduAvatar(
+                      name: widget.teacher.name,
+                      size: 90,
                     ),
                   ),
                   const SizedBox(height: EduTheme.space16),
@@ -2356,21 +2336,13 @@ class _TeacherDashboardState extends State<TeacherDashboard> {
                         child: Row(
                           children: [
                             Container(
-                              width: 48,
-                              height: 48,
                               decoration: BoxDecoration(
                                 shape: BoxShape.circle,
                                 border: Border.all(color: const Color(0xFFF1F5F9), width: 2),
                               ),
-                              child: ClipOval(
-                                child: Image.network(
-                                  'https://api.dicebear.com/7.x/adventurer/png?seed=${student.name}',
-                                  fit: BoxFit.cover,
-                                  errorBuilder: (c, e, s) => const CircleAvatar(
-                                    backgroundColor: Color(0xFFEFF6FF),
-                                    child: Icon(Icons.person, color: EduTheme.colorPrimaryBrandTeal),
-                                  ),
-                                ),
+                              child: EduAvatar(
+                                name: student.name,
+                                size: 48,
                               ),
                             ),
                             const SizedBox(width: 14),
