@@ -1,0 +1,15 @@
+Logging In (Testing Credentials)
+Once the app loads in your browser, you can log in to the different portals by entering the following seeded mobile numbers:
+
+Super Admin Dashboard
+Role: Platform metrics, subscription onboarding, sales CRM pipeline.
+Credentials: Enter any phone number not matched by other roles (the test seeder will map it automatically as Super Admin, or you can use your custom checks).
+School Admin (Principal Console)
+Role: Sequential onboarding wizard (academic calendar, classes, teachers, students, fees).
+Credentials: +91 9999911111 (Rajesh Sharma)
+Teacher Portal
+Role: Period timelines, take attendance, post topic updates & homework, create tests, enter grades.
+Credentials: +91 9999922221 (Mrs. Priya Patel)
+Parent Application
+Role: Choose child, view timeline updates, check attendance cards, pay dues, view grade report cards.
+Credentials: +91 9876543210 (Ramesh Kumar)

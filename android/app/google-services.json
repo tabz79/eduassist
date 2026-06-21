@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "445384516686",
+    "project_id": "eduassist-48217",
+    "storage_bucket": "eduassist-48217.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445384516686:android:df1929fb1ea664e638cf1f",
+        "android_client_info": {
+          "package_name": "com.example.eduassist_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVnz-m7Efcy0-3kuWgqHVn0EunKiKVXhc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

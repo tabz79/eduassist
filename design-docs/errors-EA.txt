@@ -1,0 +1,80 @@
+PS D:\Projects\eduassist_app> flutter run -d chrome
+Launching lib\main.dart on Chrome in debug
+mode...
+Waiting for connection from debug service on Chrome...             68.0s
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave
+application running).
+c Clear the screen
+q Quit (terminate the application on the
+device).
+
+Debug service listening on
+ws://127.0.0.1:12187/sJuT0agm3vs=/ws
+A Dart VM Service on Chrome is available at:
+http://127.0.0.1:12187/sJuT0agm3vs=
+The Flutter DevTools debugger and profiler on
+Chrome is available at:
+http://127.0.0.1:12187/sJuT0agm3vs=/devtools/?ur
+i=ws://127.0.0.1:12187/sJuT0agm3vs=/ws
+Starting application from main method in:
+org-dartlang-app:/web_entrypoint.dart.
+Firebase Initialized Successfully (Slice 1B)
+Error getting student fees:
+[cloud_firestore/failed-precondition] The query
+requires an index. You can create it here:
+https://console.firebase.google.com/v1/r/project
+/eduassist-48217/firestore/indexes?create_compos
+ite=Ckxwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
+c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2ZlZXMv
+aW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCwoHZHVlRGF0
+ZRACGgwKCF9fbmFtZV9fEAI
+Error getting student attendance:
+[cloud_firestore/failed-precondition] The query
+requires an index. You can create it here:
+https://console.firebase.google.com/v1/r/project
+/eduassist-48217/firestore/indexes?create_compos
+ite=ClJwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
+c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2F0dGVu
+ZGFuY2UvaW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCAoE
+ZGF0ZRACGgwKCF9fbmFtZV9fEAI
+Error getting student fees:
+[cloud_firestore/failed-precondition] The query
+requires an index. You can create it here:
+https://console.firebase.google.com/v1/r/project
+/eduassist-48217/firestore/indexes?create_compos
+ite=Ckxwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
+c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2ZlZXMv
+aW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCwoHZHVlRGF0
+ZRACGgwKCF9fbmFtZV9fEAI
+Error getting student attendance:
+[cloud_firestore/failed-precondition] The query
+requires an index. You can create it here:
+https://console.firebase.google.com/v1/r/project
+/eduassist-48217/firestore/indexes?create_compos
+ite=ClJwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
+c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2F0dGVu
+ZGFuY2UvaW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCAoE
+ZGF0ZRACGgwKCF9fbmFtZV9fEAI
+Error getting student fees:
+[cloud_firestore/failed-precondition] The query
+requires an index. You can create it here:
+https://console.firebase.google.com/v1/r/project
+/eduassist-48217/firestore/indexes?create_compos
+ite=Ckxwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
+c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2ZlZXMv
+aW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCwoHZHVlRGF0
+ZRACGgwKCF9fbmFtZV9fEAI
+Error getting student attendance:
+[cloud_firestore/failed-precondition] The query
+requires an index. You can create it here:
+https://console.firebase.google.com/v1/r/project
+/eduassist-48217/firestore/indexes?create_compos
+ite=ClJwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
+c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2F0dGVu
+ZGFuY2UvaW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCAoE
+ZGF0ZRACGgwKCF9fbmFtZV9fEAI
