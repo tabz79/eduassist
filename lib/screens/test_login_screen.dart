@@ -92,7 +92,7 @@ class _TestLoginScreenState extends State<TestLoginScreen> {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            content: Text('Indo English High School Seeder Completed Successfully!'),
+            content: Text('Vidyalaya Primary School Seeder Completed Successfully!'),
             backgroundColor: Colors.green,
           ),
         );
@@ -661,7 +661,7 @@ class _TestLoginScreenState extends State<TestLoginScreen> {
                     onPressed: _handleRunSeeder,
                     icon: const Icon(Icons.playlist_add_check, color: Colors.green),
                     label: const Text(
-                      'Run Database Seeder (IEHS)',
+                      'Run Database Seeder (VPS)',
                       style: TextStyle(color: Colors.green, fontSize: 13, fontWeight: FontWeight.bold),
                     ),
                   ),

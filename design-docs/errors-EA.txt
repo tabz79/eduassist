@@ -1,80 +1,761 @@
-PS D:\Projects\eduassist_app> flutter run -d chrome
-Launching lib\main.dart on Chrome in debug
-mode...
-Waiting for connection from debug service on Chrome...             68.0s
-
-Flutter run key commands.
-r Hot reload. 🔥🔥🔥
-R Hot restart.
-h List all available interactive commands.
-d Detach (terminate "flutter run" but leave
-application running).
-c Clear the screen
-q Quit (terminate the application on the
-device).
-
-Debug service listening on
-ws://127.0.0.1:12187/sJuT0agm3vs=/ws
-A Dart VM Service on Chrome is available at:
-http://127.0.0.1:12187/sJuT0agm3vs=
-The Flutter DevTools debugger and profiler on
-Chrome is available at:
-http://127.0.0.1:12187/sJuT0agm3vs=/devtools/?ur
-i=ws://127.0.0.1:12187/sJuT0agm3vs=/ws
-Starting application from main method in:
-org-dartlang-app:/web_entrypoint.dart.
-Firebase Initialized Successfully (Slice 1B)
-Error getting student fees:
-[cloud_firestore/failed-precondition] The query
-requires an index. You can create it here:
-https://console.firebase.google.com/v1/r/project
-/eduassist-48217/firestore/indexes?create_compos
-ite=Ckxwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
-c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2ZlZXMv
-aW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCwoHZHVlRGF0
-ZRACGgwKCF9fbmFtZV9fEAI
-Error getting student attendance:
-[cloud_firestore/failed-precondition] The query
-requires an index. You can create it here:
-https://console.firebase.google.com/v1/r/project
-/eduassist-48217/firestore/indexes?create_compos
-ite=ClJwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
-c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2F0dGVu
-ZGFuY2UvaW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCAoE
-ZGF0ZRACGgwKCF9fbmFtZV9fEAI
-Error getting student fees:
-[cloud_firestore/failed-precondition] The query
-requires an index. You can create it here:
-https://console.firebase.google.com/v1/r/project
-/eduassist-48217/firestore/indexes?create_compos
-ite=Ckxwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
-c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2ZlZXMv
-aW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCwoHZHVlRGF0
-ZRACGgwKCF9fbmFtZV9fEAI
-Error getting student attendance:
-[cloud_firestore/failed-precondition] The query
-requires an index. You can create it here:
-https://console.firebase.google.com/v1/r/project
-/eduassist-48217/firestore/indexes?create_compos
-ite=ClJwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
-c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2F0dGVu
-ZGFuY2UvaW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCAoE
-ZGF0ZRACGgwKCF9fbmFtZV9fEAI
-Error getting student fees:
-[cloud_firestore/failed-precondition] The query
-requires an index. You can create it here:
-https://console.firebase.google.com/v1/r/project
-/eduassist-48217/firestore/indexes?create_compos
-ite=Ckxwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
-c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2ZlZXMv
-aW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCwoHZHVlRGF0
-ZRACGgwKCF9fbmFtZV9fEAI
-Error getting student attendance:
-[cloud_firestore/failed-precondition] The query
-requires an index. You can create it here:
-https://console.firebase.google.com/v1/r/project
-/eduassist-48217/firestore/indexes?create_compos
-ite=ClJwcm9qZWN0cy9lZHVhc3Npc3QtNDgyMTcvZGF0YWJh
-c2VzLyhkZWZhdWx0KS9jb2xsZWN0aW9uR3JvdXBzL2F0dGVu
-ZGFuY2UvaW5kZXhlcy9fEAEaDQoJc3R1ZGVudElkEAEaCAoE
-ZGF0ZRACGgwKCF9fbmFtZV9fEAI
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3870:31: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                              setState(() =>
+                              _isLoading =
+                              false);
+Waiting for connection from debug service on Chr                              ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3722:20: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr            child: _buildVisualCard(
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3897:15: Error:
+Undefined name '_feeStructuresList'.
+Waiting for connection from debug service on Chr              _feeStructuresList.isEmpty
+Waiting for connection from debug service on Chr              ^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3902:34: Error:
+Undefined name '_feeStructuresList'.
+Waiting for connection from debug service on Chr                      itemCount:
+                      _feeStructuresList.length,
+Waiting for connection from debug service on Chr                                 ^^^^^^^^^^^^^^^
+                                 ^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3905:36: Error:
+Undefined name '_feeStructuresList'.
+Waiting for connection from debug service on Chr                        final fs =
+                        _feeStructuresList[idx];
+Waiting for connection from debug service on Chr                                   ^^^^^^^^^^^^^
+                                   ^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3910:50: Error:
+Method not found: '_formatDate'.
+Waiting for connection from debug service on Chr                          trailing: Text('Due:
+                          ${_formatDate(fs.dueDa
+                          te)}', style: const
+                          TextStyle(fontWeight:
+                          FontWeight.bold)),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3895:20: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr            child: _buildVisualCard(
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3923:45: Error:
+Undefined name '_feeTitleController'.
+Waiting for connection from debug service on Chr                  TextFormField(controller:
+                  _feeTitleController,
+                  decoration: const
+                  InputDecoration(labelText:
+                  'Account Billing Title')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3925:45: Error:
+Undefined name '_feeAmountController'.
+Waiting for connection from debug service on Chr                  TextFormField(controller:
+                  _feeAmountController,
+                  decoration: const
+                  InputDecoration(labelText:
+                  'Billing Amount (INR)'),
+                  keyboardType:
+                  TextInputType.number),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3927:45: Error:
+Undefined name '_feeDueDateController'.
+Waiting for connection from debug service on Chr                  TextFormField(controller:
+                  _feeDueDateController,
+                  decoration: const
+                  InputDecoration(labelText:
+                  'Due Date (YYYY-MM-DD)')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3929:45: Error:
+Undefined name '_createFeeStructure'.
+Waiting for connection from debug service on Chr                  ElevatedButton(onPressed:
+                  _createFeeStructure, child:
+                  const Text('Save Structure')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3919:20: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr            child: _buildVisualCard(
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3950:26: Error:
+Undefined name '_feeAllocStructureId'.
+Waiting for connection from debug service on Chr                  value: _feeAllocStructureId,
+Waiting for connection from debug service on Chr                         ^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3951:26: Error:
+Undefined name '_feeStructuresList'.
+Waiting for connection from debug service on Chr                  items:
+                  _feeStructuresList.map((fs) =>
+                  DropdownMenuItem(value:
+                  fs.feeStructureId, child:
+                  Text(fs.title))).toList(),
+Waiting for connection from debug service on Chr                         ^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3952:54: Error:
+Setter not found: '_feeAllocStructureId'.
+Waiting for connection from debug service on Chr                  onChanged: (val) =>
+                  setState(() =>
+                  _feeAllocStructureId = val),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3952:39: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                  onChanged: (val) =>
+                  setState(() =>
+                  _feeAllocStructureId = val),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3957:26: Error:
+Undefined name '_feeAllocClassId'.
+Waiting for connection from debug service on Chr                  value: _feeAllocClassId,
+Waiting for connection from debug service on Chr                         ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3958:26: Error:
+Undefined name '_classesList'.
+Waiting for connection from debug service on Chr                  items: _classesList.map((c) =>
+                  DropdownMenuItem(value:
+                  c.classId, child:
+                  Text(c.name))).toList(),
+Waiting for connection from debug service on Chr                         ^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3959:54: Error:
+Setter not found: '_feeAllocClassId'.
+Waiting for connection from debug service on Chr                  onChanged: (val) =>
+                  setState(() =>
+                  _feeAllocClassId = val),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3959:39: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                  onChanged: (val) =>
+                  setState(() =>
+                  _feeAllocClassId = val),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3964:26: Error:
+Undefined name '_feeAllocSectionId'.
+Waiting for connection from debug service on Chr                  value: _feeAllocSectionId,
+Waiting for connection from debug service on Chr                         ^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3965:26: Error:
+Undefined name '_sectionsList'.
+Waiting for connection from debug service on Chr                  items: _sectionsList.map((s)
+                  => DropdownMenuItem(value:
+                  s.sectionId, child:
+                  Text(s.name))).toList(),
+Waiting for connection from debug service on Chr                         ^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3966:54: Error:
+Setter not found: '_feeAllocSectionId'.
+Waiting for connection from debug service on Chr                  onChanged: (val) =>
+                  setState(() =>
+                  _feeAllocSectionId = val),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3966:39: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                  onChanged: (val) =>
+                  setState(() =>
+                  _feeAllocSectionId = val),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3970:43: Error:
+Undefined name '_allocateFeeBulk'.
+Waiting for connection from debug service on Chr                ElevatedButton(onPressed:
+                _allocateFeeBulk, child: const
+                Text('Allocate Fee Structure')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3945:18: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr          child: _buildVisualCard(
+Waiting for connection from debug service on Chr                 ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3986:13: Error:
+Undefined name '_feeAssignmentsList'.
+Waiting for connection from debug service on Chr            _feeAssignmentsList.isEmpty
+Waiting for connection from debug service on Chr            ^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4005:82: Error:
+Method not found: '_buildStatusBadge'.
+Waiting for connection from debug service on Chr                               Padding(padding:
+                               const
+                               EdgeInsets.all(12
+                               ), child:
+                               _buildStatusBadge
+                               (fa.status)),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4000:26: Error:
+Undefined name '_feeAssignmentsList'.
+Waiting for connection from debug service on Chr                      ..._feeAssignmentsList.map
+                      ((fa) => TableRow(
+Waiting for connection from debug service on Chr                         ^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:3984:11: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr          _buildVisualCard(
+Waiting for connection from debug service on Chr          ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4026:15: Error:
+Undefined name '_announcementsList'.
+Waiting for connection from debug service on Chr              _announcementsList.isEmpty
+Waiting for connection from debug service on Chr              ^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4031:34: Error:
+Undefined name '_announcementsList'.
+Waiting for connection from debug service on Chr                      itemCount:
+                      _announcementsList.length,
+Waiting for connection from debug service on Chr                                 ^^^^^^^^^^^^^^^
+                                 ^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4034:37: Error:
+Undefined name '_announcementsList'.
+Waiting for connection from debug service on Chr                        final anc =
+                        _announcementsList[idx];
+Waiting for connection from debug service on Chr                                    ^^^^^^^^^^^^
+                                    ^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4039:38: Error:
+Method not found: '_buildStatusBadge'.
+Waiting for connection from debug service on Chr                           trailing:
+                           _buildStatusBadge(anc
+                           .scope),
+Waiting for connection from debug service on Chr                                     ^^^^^^^^^^^
+                                     ^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4024:20: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr            child: _buildVisualCard(
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4052:45: Error:
+Undefined name '_announcementTitleController'.
+Waiting for connection from debug service on Chr                  TextFormField(controller:
+                  _announcementTitleController,
+                  decoration: const
+                  InputDecoration(labelText:
+                  'Notice Title')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4054:45: Error:
+Undefined name '_announcementBodyController'.
+Waiting for connection from debug service on Chr                  TextFormField(controller:
+                  _announcementBodyController,
+                  decoration: const
+                  InputDecoration(labelText:
+                  'Body Content'), maxLines: 4),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4057:28: Error:
+Undefined name '_announcementScope'.
+Waiting for connection from debug service on Chr                    value: _announcementScope,
+Waiting for connection from debug service on Chr                           ^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4061:56: Error:
+Setter not found: '_announcementScope'.
+Waiting for connection from debug service on Chr                    onChanged: (val) =>
+                    setState(() =>
+                    _announcementScope = val ??
+                    'school'),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4061:41: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                    onChanged: (val) =>
+                    setState(() =>
+                    _announcementScope = val ??
+                    'school'),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4065:45: Error:
+Undefined name '_postAnnouncement'.
+Waiting for connection from debug service on Chr                  ElevatedButton(onPressed:
+                  _postAnnouncement, child:
+                  const Text('Dispatch
+                  notice')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4048:20: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr            child: _buildVisualCard(
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4080:9: Error:
+Undefined name '_classroomUpdatesList'.
+Waiting for connection from debug service on Chr        _classroomUpdatesList.isEmpty
+Waiting for connection from debug service on Chr        ^^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4085:28: Error:
+Undefined name '_classroomUpdatesList'.
+Waiting for connection from debug service on Chr                itemCount:
+                _classroomUpdatesList.length,
+Waiting for connection from debug service on Chr                           ^^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4088:31: Error:
+Undefined name '_classroomUpdatesList'.
+Waiting for connection from debug service on Chr                  final log =
+                  _classroomUpdatesList[idx];
+Waiting for connection from debug service on Chr                              ^^^^^^^^^^^^^^^^^^
+                              ^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4078:14: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr      child: _buildVisualCard(
+Waiting for connection from debug service on Chr             ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4104:14: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr      child: _buildVisualCard(
+Waiting for connection from debug service on Chr             ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4114:14: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr      child: _buildVisualCard(
+Waiting for connection from debug service on Chr             ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4131:43: Error:
+Undefined name '_schoolNameController'.
+Waiting for connection from debug service on Chr                TextFormField(controller:
+                _schoolNameController,
+                decoration: const
+                InputDecoration(labelText:
+                'Institution Name')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4133:43: Error:
+Undefined name '_schoolBoardController'.
+Waiting for connection from debug service on Chr                TextFormField(controller:
+                _schoolBoardController,
+                decoration: const
+                InputDecoration(labelText:
+                'Affiliation Board Code')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4135:43: Error:
+Undefined name '_schoolAddressController'.
+Waiting for connection from debug service on Chr                TextFormField(controller:
+                _schoolAddressController,
+                decoration: const
+                InputDecoration(labelText:
+                'Physical Campus Address')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4137:43: Error:
+Undefined name '_updateSchoolProfile'.
+Waiting for connection from debug service on Chr                ElevatedButton(onPressed:
+                _updateSchoolProfile, child:
+                const Text('Update Profile')),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4127:18: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr          child: _buildVisualCard(
+Waiting for connection from debug service on Chr                 ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4160:31: Error:
+Undefined name '_settingsStartTimeController'.
+Waiting for connection from debug service on Chr                  controller:
+                  _settingsStartTimeController,
+Waiting for connection from debug service on Chr                              ^^^^^^^^^^^^^^^^^^
+                              ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4165:31: Error:
+Undefined name '_settingsEndTimeController'.
+Waiting for connection from debug service on Chr                  controller:
+                  _settingsEndTimeController,
+Waiting for connection from debug service on Chr                              ^^^^^^^^^^^^^^^^^^
+                              ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4170:31: Error:
+Undefined name
+'_settingsPeriodDurationController'.
+Waiting for connection from debug service on Chr                  controller:
+                  _settingsPeriodDurationControl
+                  ler,
+Waiting for connection from debug service on Chr                              ^^^^^^^^^^^^^^^^^^
+                              ^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4179:37: Error:
+Undefined name '_settingsLunchStartController'.
+Waiting for connection from debug service on Chr                        controller:
+                        _settingsLunchStartContr
+                        oller,
+Waiting for connection from debug service on Chr                                    ^^^^^^^^^^^^
+                                    ^^^^^^^^^^^^
+                                    ^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4186:37: Error:
+Undefined name
+'_settingsLunchDurationController'.
+Waiting for connection from debug service on Chr                        controller:
+                        _settingsLunchDurationCo
+                        ntroller,
+Waiting for connection from debug service on Chr                                    ^^^^^^^^^^^^
+                                    ^^^^^^^^^^^^
+                                    ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4199:39: Error:
+Undefined name '_settingsWorkingDays'.
+Waiting for connection from debug service on Chr                    final isWorking =
+                    _settingsWorkingDays.contain
+                    s(day);
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4206:29: Error:
+Undefined name '_settingsWorkingDays'.
+Waiting for connection from debug service on Chr                            _settingsWorkingDays
+                            .add(day);
+Waiting for connection from debug service on Chr                            ^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4208:29: Error:
+Undefined name '_settingsWorkingDays'.
+Waiting for connection from debug service on Chr                            _settingsWorkingDays
+                            .remove(day);
+Waiting for connection from debug service on Chr                            ^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4204:25: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                        setState(() {
+Waiting for connection from debug service on Chr                        ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4222:40: Error:
+Setter not found: '_isLoading'.
+Waiting for connection from debug service on Chr                        setState(() =>
+                        _isLoading = true);
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4222:25: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                        setState(() =>
+                        _isLoading = true);
+Waiting for connection from debug service on Chr                        ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4224:86: Error:
+Undefined name 'widget'.
+Waiting for connection from debug service on Chr                          await
+                          FirebaseFirestore.inst
+                          ance.collection('schoo
+                          ls').doc(widget.admin.
+                          schoolId).update({
+Waiting for connection from debug service on Chr                                      ^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4225:42: Error:
+Undefined name '_settingsStartTimeController'.
+Waiting for connection from debug service on Chr                            'startTime':
+                            _settingsStartTimeCo
+                            ntroller.text.trim()
+                            ,
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4226:40: Error:
+Undefined name '_settingsEndTimeController'.
+Waiting for connection from debug service on Chr                            'endTime':
+                            _settingsEndTimeCont
+                            roller.text.trim(),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4227:60: Error:
+Undefined name
+'_settingsPeriodDurationController'.
+Waiting for connection from debug service on Chr                            'periodDuration':
+                            int.tryParse(_settin
+                            gsPeriodDurationCont
+                            roller.text.trim())
+                            ?? 45,
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4228:48: Error:
+Undefined name '_settingsLunchStartController'.
+Waiting for connection from debug service on Chr                            'lunchBreakStart':
+                            _settingsLunchStartC
+                            ontroller.text.trim(
+                            ),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4229:64: Error:
+Undefined name
+'_settingsLunchDurationController'.
+Waiting for connection from debug service on Chr                            'lunchBreakDuration'
+                            :
+                            int.tryParse(_settin
+                            gsLunchDurationContr
+                            oller.text.trim())
+                            ?? 30,
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4230:44: Error:
+Undefined name '_settingsWorkingDays'.
+Waiting for connection from debug service on Chr                            'workingDays':
+                            _settingsWorkingDays
+                            ,
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4232:27: Error:
+Method not found: '_showSuccess'.
+Waiting for connection from debug service on Chr                          _showSuccess('School
+                          settings saved to
+                          database!');
+Waiting for connection from debug service on Chr                          ^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4233:33: Error:
+Method not found: '_loadSchoolProfile'.
+Waiting for connection from debug service on Chr                          await
+                          _loadSchoolProfile();
+Waiting for connection from debug service on Chr                                ^^^^^^^^^^^^^^^^
+                                ^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4235:27: Error:
+Method not found: '_showWarning'.
+Waiting for connection from debug service on Chr                          _showWarning('Error:
+                          $e');
+Waiting for connection from debug service on Chr                          ^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4237:42: Error:
+Setter not found: '_isLoading'.
+Waiting for connection from debug service on Chr                          setState(() =>
+                          _isLoading = false);
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4237:27: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                          setState(() =>
+                          _isLoading = false);
+Waiting for connection from debug service on Chr                          ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4243:34: Error:
+Undefined name '_loadAdminData'.
+Waiting for connection from debug service on Chr                      onPressed: _loadAdminData,
+Waiting for connection from debug service on Chr                                 ^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4152:18: Error:
+Method not found: '_buildVisualCard'.
+Waiting for connection from debug service on Chr          child: _buildVisualCard(
+Waiting for connection from debug service on Chr                 ^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4290:13: Error:
+Undefined name '_currentRoute'.
+Waiting for connection from debug service on Chr    switch (_currentRoute) {
+Waiting for connection from debug service on Chr            ^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4292:20: Error:
+Method not found: '_buildDashboardHome'.
+Waiting for connection from debug service on Chr        pageBody = _buildDashboardHome();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4295:20: Error:
+Method not found: '_buildAcademicYearsView'.
+Waiting for connection from debug service on Chr        pageBody = _buildAcademicYearsView();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4298:20: Error:
+Method not found: '_buildClassesSectionsView'.
+Waiting for connection from debug service on Chr        pageBody = _buildClassesSectionsView();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4301:20: Error:
+Method not found: '_buildSubjectsView'.
+Waiting for connection from debug service on Chr        pageBody = _buildSubjectsView();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4304:20: Error:
+Method not found: '_buildTimetablesView'.
+Waiting for connection from debug service on Chr        pageBody = _buildTimetablesView();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4307:20: Error:
+Method not found: '_buildExamsView'.
+Waiting for connection from debug service on Chr        pageBody = _buildExamsView();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4310:20: Error:
+Method not found: '_buildStudentsView'.
+Waiting for connection from debug service on Chr        pageBody = _buildStudentsView();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4313:20: Error:
+Method not found: '_buildAdmissionsView'.
+Waiting for connection from debug service on Chr        pageBody = _buildAdmissionsView();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4316:20: Error:
+Method not found: '_buildParentLinkerWizard'.
+Waiting for connection from debug service on Chr        pageBody = _buildParentLinkerWizard();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4319:20: Error:
+Method not found: '_buildPromotionsView'.
+Waiting for connection from debug service on Chr        pageBody = _buildPromotionsView();
+Waiting for connection from debug service on Chr                   ^^^^^^^^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4389:29: Error:
+Undefined name '_schoolNameController'.
+Waiting for connection from debug service on Chr                            _schoolNameControlle
+                            r.text.isNotEmpty ?
+                            _schoolNameControlle
+                            r.text :
+                            'EduAssist',
+Waiting for connection from debug service on Chr                            ^^^^^^^^^^^^^^^^^^^^
+                            ^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4389:69: Error:
+Undefined name '_schoolNameController'.
+Waiting for connection from debug service on Chr                            _schoolNameControlle
+                            r.text.isNotEmpty ?
+                            _schoolNameControlle
+                            r.text :
+                            'EduAssist',
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^^^^^^^^
+                                      ^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4424:33: Error:
+Undefined name '_currentRoute'.
+Waiting for connection from debug service on Chr                                _currentRoute ==
+                                route,
+Waiting for connection from debug service on Chr                                ^^^^^^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4425:54: Error:
+Setter not found: '_currentRoute'.
+Waiting for connection from debug service on Chr                                () =>
+                                setState(() =>
+                                _currentRoute =
+                                route),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^^^
+                                      ^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4425:39: Error:
+Method not found: 'setState'.
+Waiting for connection from debug service on Chr                                () =>
+                                setState(() =>
+                                _currentRoute =
+                                route),
+Waiting for connection from debug service on Chr                                      ^^^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4408:33: Error:
+Undefined name '_sidebarStructure'.
+Waiting for connection from debug service on Chr                      children:
+                      _sidebarStructure.map((sec
+                      tion) {
+Waiting for connection from debug service on Chr                                ^^^^^^^^^^^^^^^^
+                                ^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4458:42: Error:
+Undefined name 'widget'.
+Waiting for connection from debug service on Chr                        'Welcome back,
+                        ${widget.admin.name}!
+                        👋',
+Waiting for connection from debug service on Chr                                      ^^^^^^
+Waiting for connection from debug service on Chrlib/screens/admin_dashboard.dart:4475:26: Error:
+Undefined name '_isLoading'.
+Waiting for connection from debug service on Chr                  child: _isLoading
+Waiting for connection from debug service on Chr                         ^^^^^^^^^^
+Waiting for connection from debug service on ChrUnhandled exception:
+Waiting for connection from debug service on ChrUnsupported operation: Unsupported invalid type
+InvalidType(<invalid>) (InvalidType).
+Encountered while compiling
+file:///D:/Projects/eduassist_app/lib/screens/ad
+min_dashboard.dart, which contains the type:
+FunctionType(<invalid> Function()).
+Waiting for connection from debug service on Chr#0      LibraryCompiler._typeCompilationError
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:4480)
+Waiting for connection from debug service on Chr#1      LibraryCompiler._emitType
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:4445)
+Waiting for connection from debug service on Chr#2      LibraryCompiler._emitFunctionTagged
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:4292)
+Waiting for connection from debug service on Chr#3      LibraryCompiler.visitFunctionExpression
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:8894)
+Waiting for connection from debug service on Chr#4      FunctionExpression.accept
+(package:kernel/src/ast/expressions.dart:4695)
+Waiting for connection from debug service on Chr#5      LibraryCompiler._visitExpression
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:5147)
+Waiting for connection from debug service on Chr#6      LibraryCompiler._emitNamedExpression
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:8063)
+Waiting for connection from debug service on Chr#7      LibraryCompiler._emitArgumentGroups
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:8053)
+Waiting for connection from debug service on Chr#8      LibraryCompiler._emitArgumentList
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:8007)
+Waiting for connection from debug service on Chr#9
+LibraryCompiler.visitInstanceInvocation.generate
+Call
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:6601)
+Waiting for connection from debug service on Chr#10     LibraryCompiler.visitInstanceInvocation
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:6621)
+Waiting for connection from debug service on Chr#11     InstanceInvocation.accept
+(package:kernel/src/ast/expressions.dart:1802)
+Waiting for connection from debug service on Chr#12     LibraryCompiler._visitExpression
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:5147)
+Waiting for connection from debug service on Chr#13
+LibraryCompiler.visitConditionalExpression
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:8518)
+Waiting for connection from debug service on Chr#14     ConditionalExpression.accept
+(package:kernel/src/ast/expressions.dart:3045)
+Waiting for connection from debug service on Chr#15     LibraryCompiler._visitExpression
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:5147)
+Waiting for connection from debug service on Chr#16     LibraryCompiler._visitInitializer
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:2731)
+Waiting for connection from debug service on Chr#17     LibraryCompiler.visitVariableDeclaration
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:6036)
+Waiting for connection from debug service on Chr#18
+StatementVisitorExperimentExclusionMixin.visitVa
+riableStatement
+(package:kernel/visitor.dart:3289)
+Waiting for connection from debug service on Chr#19     VariableStatement.accept
+(package:kernel/src/ast/statements.dart:1870)
+Waiting for connection from debug service on Chr#20     LibraryCompiler._visitStatement
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:5044)
+Waiting for connection from debug service on Chr#21     MappedIterable.elementAt
+(dart:_internal/iterable.dart:402)
+Waiting for connection from debug service on Chr#22     ListIterator.moveNext
+(dart:_internal/iterable.dart:371)
+Waiting for connection from debug service on Chr#23     new
+_GrowableList._ofEfficientLengthIterable
+(dart:core-patch/growable_array.dart:194)
+Waiting for connection from debug service on Chr#24     new _GrowableList.of
+(dart:core-patch/growable_array.dart:154)
+Waiting for connection from debug service on Chr#25     new List.of
+(dart:core-patch/array_patch.dart:39)
+Waiting for connection from debug service on Chr#26     SetBase.toList
+(dart:collection/set.dart:119)
+Waiting for connection from debug service on Chr#27     LibraryCompiler.visitBlock
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:5257)
+Waiting for connection from debug service on Chr#28     Block.accept
+(package:kernel/src/ast/statements.dart:106)
+Waiting for connection from debug service on Chr#29     LibraryCompiler._visitStatement
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:5044)
+Waiting for connection from debug service on Chr#30     LibraryCompiler._emitFunctionScopedBody
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:5081)
+Waiting for connection from debug service on Chr#31     LibraryCompiler._emitFunction.<anonymous
+closure>
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:4667)
+Waiting for connection from debug service on Chr#32     LibraryCompiler._withLetScope
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:3661)
+Waiting for connection from debug service on Chr#33     LibraryCompiler._withCurrentFunction
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:4841)
+Waiting for connection from debug service on Chr#34     LibraryCompiler._emitFunction
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:4659)
+Waiting for connection from debug service on Chr#35
+LibraryCompiler._emitMethodDeclaration.<anonymou
+s closure>
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:2941)
+Waiting for connection from debug service on Chr#36
+LibraryCompiler._withMethodDeclarationContext
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:4866)
+Waiting for connection from debug service on Chr#37     LibraryCompiler._emitMethodDeclaration
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:2939)
+Waiting for connection from debug service on Chr#38     LibraryCompiler._emitClassProperties
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:2880)
+Waiting for connection from debug service on Chr#39     LibraryCompiler._emitClassDeclaration
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:1488)
+Waiting for connection from debug service on Chr#40     LibraryCompiler._emitClass
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:1426)
+Waiting for connection from debug service on Chr#41     List.forEach
+(dart:core-patch/growable_array.dart:428)
+Waiting for connection from debug service on Chr#42     LibraryCompiler._emitLibrary
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:1348)
+Waiting for connection from debug service on Chr#43     LibraryCompiler.emitLibrary
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:962)
+Waiting for connection from debug service on Chr#44     LibraryBundleCompiler.emitModule
+(package:dev_compiler/src/kernel/compiler_new.da
+rt:165)
+Waiting for connection from debug service on Chr#45     IncrementalJavaScriptBundler.compile
+(package:frontend_server/src/javascript_bundle.d
+art:324)
+Waiting for connection from debug service on Chr#46     FrontendCompiler.writeJavaScriptBundle
+(package:frontend_server/frontend_server.dart:92
+2)
+Waiting for connection from debug service on Chr<asynchronous suspension>
+Waiting for connection from debug service on Chr#47     FrontendCompiler.compile
+(package:frontend_server/frontend_server.dart:72
+8)
+Waiting for connection from debug service on Chr<asynchronous suspension>
+Waiting for connection from debug service on Chr#48     listenAndCompile.<anonymous closure>
+(package:frontend_server/frontend_server.dart:14
+49)
+Waiting for connection from debug service on Chr<asynchronous suspension>
+Waiting for connection from debug service on ChrThe Dart compiler exited unexpectedly.
+Waiting for connection from debug service on Chrome...             61.7s
+Failed to compile application.
+PS D:\Projects\eduassist_app>
